@@ -97,7 +97,20 @@ button {
 
 .quote {
     background-color: #e5e7eb;
-    font-style: 36px light italic #1f2937;
+}
+
+.quote-text, .quote-author {
+    color: #1f2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-weight: bold;
 }
 
 .info h1 {
