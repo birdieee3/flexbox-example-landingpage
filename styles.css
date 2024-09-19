@@ -147,8 +147,8 @@ button {
 
 .info-img {
     object-fit: cover;
-    width: 128px;
-    height: 128px;
+    width: 150px;
+    height: 150px;
     border: 4px solid #3882f6;
     border-radius: 16px;
 }
@@ -156,14 +156,14 @@ button {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 42px;
     margin-top: 48px;
     margin-bottom: 64px;
     color:grey;
     
 }
 .card {
-    max-width: 136px;
+    max-width: 158px;
     /* box-sizing: content-box; idk how to not have to adjust for the borders.. :( */
 }
 
