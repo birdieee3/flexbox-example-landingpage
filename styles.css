@@ -58,6 +58,7 @@ header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hero-left, .hero-right {
@@ -78,8 +79,8 @@ header ul {
     font-size: 18px;
     color:#e5e7eb;
     /* max-width: 50%; */
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .hero-img {
@@ -92,14 +93,15 @@ ul {
 
 button, .call-to-action {
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: #f9faf8;
 }
 
 button {
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 8px 24px;
     font-weight: bold;
+    color:#f9faf8;
 }
 
 .quote {
@@ -117,7 +119,7 @@ button {
     color: #1f2937;
 
     margin: 96px;
-    margin-bottom: 0;
+    margin-bottom: 8px;
 }
 
 .quote-author {
@@ -165,6 +167,43 @@ button {
     /* box-sizing: content-box; idk how to not have to adjust for the borders.. :( */
 }
 
+.call-to-action {
+    margin: 64px 0;
+    padding: 48px 96px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action .left {
+    width: 75%;
+    /* gap: 16px; idk how */
+}
+
+.call-to-action .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action .subtext {
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.outline {
+    border: 2px solid #f9faf8 ;
+    font-size: 15px;
+    /* padding: 6px 24px; */
+}
+
 footer {
     text-align: center;
+    font-size: 18px;
 }
